@@ -4,3 +4,8 @@ h1 {
 	font-weight:900;
 	text-transform:uppercase;
 }
+
+.aboutText {
+	font-family:roboto;
+	font-weight:500;
+}
