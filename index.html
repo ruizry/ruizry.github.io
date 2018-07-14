@@ -7,166 +7,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Simonetta:900i">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/v4-shims.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Custom CSS -->
 	<link rel="stylesheet" href="./css/portfolio_style.css">
   </head>
   <body id="home">
-		<!-- page content -->
-		<div class="container">
-			
-			<!-- navigation -->
-			<nav class="navbar navbar-toggleable-md fixed-top navbar-light" style="background-color: #e3f2fd;">
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<a class="navbar-brand" href="#">
-					<img src="./img/movie_logo.gif" width="60" height="58" alt="">
-				</a>
+        <!-- page content -->
+        <!-- nav -newer bootstrap4 features implemented -->
+        <nav class ="navbar navbar-expand-sm transparent navbar-dark p-3 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand font-weight-bold">
+                    RYSDEV
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#main">About Me</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#projects">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-					<form class="form-inline my-2 my-lg-0 hidden-sm-down">
-						<input class="form-control mr-sm-2" type="text" placeholder="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-					</form>
-				</div>
-			</nav>
-			<!-- /navigation -->
-			
-			<!-- jumbotron -->
-			<div class="jumbotron jumbotron-fluid text-center bg-info mt-4 hidden-md-down">
-				<div class="container">
-					<h1 class="display-2">Ryan's Portfolio</h1>
-					<p class="lead">Web Developer</p>
-				</div>
-			</div>
-            <!-- /jumbotron -->
-
-			<!-- main -->
-			<div class="container mt-5 mb-4" id="main">
-				<div class="row">
-					<div class="col-md-7 mt-10 px-2">
-						<h3>About Rysdev</h3>
-						<img class="img-fluid" src="./img/coding.jpg" alt=""/>
-						<p class="aboutText pt-2 text-center">Software developer currently based out of Portland specializing in web development. Received a Bachelor of Science in Computer Science from Oregon State University and a Bachelor of Science in Business Administration from California State University, Long Beach.</p>
-					</div>
-					<div class="col-md-5 mt-2 px-2">
-						<h3>My Skills</h3>
-							<ul class="list-group">
-								<li class="list-group-item">
-									<a class="nav-link" href="#projects">C# .NET</a>
-								</li>
-								<li class="list-group-item">
-									<a class="nav-link" href="#projects">MERN</a>
-								</li>
-								<li class="list-group-item">
-									<a class="nav-link" href="#projects">Node Express</a>
-								</li>
-								<li class="list-group-item">
-									<a class="nav-link" href="#projects">JavaScript HTML CSS</a>
-								</li>
-								<li class="list-group-item">
-									<a class="nav-link" href="#projects">Android Java</a>
-								</li>
-								<li class="list-group-item">
-									<a class="nav-link" href="#projects">C</a>
-								</li>
-							</ul>
-					</div>
-				</div>
-			</div>
-            <!-- /main -->
-            
-			<!-- projects -->
-			<div class="card-group" id="projects">
-				<div class="card">
-					<img class="card-img-top" src="./img/thumb/cDotNet.jpg" alt="Card image cap">
-					<div class="card-block">
-						<a href="https://github.com/ruizry/rysPortfolio"><h4 class="card-title text-center">C# .NET Framework</h4></a>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted">Latest .NET Project: </small>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="./img/thumb/reactjs.png" alt="Card image cap">
-					<div class="card-block">
-						<a href="https://github.com/ruizry/rysPortfolio"><h4 class="card-title text-center">Mongoose Express React Node</h4></a>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted">Latest Mern Project: </small>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="./img/thumb/nodejs.jpg" alt="Card image cap">
-					<div class="card-block">
-						<a href="https://github.com/ruizry/rysPortfolio"><h4 class="card-title text-center">Node/Express Handlebars</h4></a>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted">Latest Node+Template Project: </small>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="./img/thumb/html_css_js.png" alt="Card image cap">
-					<div class="card-block">
-						<a href="https://github.com/ruizry/rysPortfolio"><h4 class="card-title text-center">JavaScript HTML CSS</h4></a>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted">Latest HTML+CSS+JS Project: </small>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="./img/thumb/android.jpg" alt="Card image cap">
-					<div class="card-block">
-						<a href="https://github.com/ruizry/rysPortfolio"><h4 class="card-title text-center">Android Java</h4></a>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted">Latest Android Project: </small>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="./img/thumb/c.jpeg" alt="Card image cap">
-					<div class="card-block">
-						<a href="https://github.com/ruizry/rysPortfolio"><h4 class="card-title text-center">Plain Old C</h4></a>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted">Latest C Project: </small>
-					</div>
-				</div>
-			</div>
-			<!-- /projects -->
-		
-			<!-- contact -->
-			<div class="container py-4 text-center col-md-6" id="contact">
-				<form>
-					<div class="form-group row">
-						<h1 class="display-5 my-5 text-primary">Contact Me</h1>
-						<div class="col-sm-12">
-							<input type="email" class="form-control form-control-lg mr-auto" id="lgFormGroupInput" placeholder="you@example.com">
-							<button type="button" class="btn btn-outline-primary mt-4 mr-auto">Submit</button>
-						</div>
-					</div>
-				</form>
-			</div>
-			<!-- /sign up -->
-		
-			<!-- footer -->
-			<div class="container">
-				<ul class="nav nav-inline">
-					<li class="nav-item">
+                <!-- links -->
+                <div class="collapse navbar-collapse justify-content-end" id="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#main" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                <!-- /links -->
+                </div>
+            </div>
+        </nav>
+        <!-- /nav-->
+        <!-- main banner -->
+        <section id="main">
+            <div class="container">
+                <div class="row max-viewport align-items-center text-center">
+                    <div class="col-md-5 d-none d-md-block">
+                        <img src="img/Ryan1.jpg" class="img-fluid img-thumbnail rounded">
+                    </div>
+                    <div class="col-12 col-sm-6 mx-auto my-5">
+                        <h1 class="text-white text-uppercase">
+                            Rysdev
+                        </h1>
+                        <a href="#" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2">
+                            <i class="fa fa-github mr-2">  GitHub</i>
+                        </a>
+                        <a href="#" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2">
+                            <i class="fa fa-linkedin mr-2">  LinkedIn</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /main banner -->
+        <!-- portfolio -->
+        <section id="portfolio" class="p-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <a href="#" class="col-sm-6 my-3 port" data-toggle="popover" data-placement="left" title="Navigate to GitHub" data-content="Coming soon">
+                        <img src="img/thumb/reactjs.png" class="img-fluid rounded" alt="">
+                        <h1 class="my-3">
+                            Project 1
+                        </h1>
+                        <p class="text-muted desc">
+                            Description of project here. More description of project here. Even More description of project here.
+                        </p>
+                    </a>
+                    <a href="#" class="col-sm-6 my-3 port" data-toggle="popover" data-placement="right" title="Navigate to GitHub" data-content="Coming soon">
+                        <img src="img/thumb/cDotNet.jpg" class="img-fluid rounded" alt="">
+                        <h1 class="my-3">
+                            Project 2
+                        </h1>
+                        <p class="text-muted desc">
+                            Description of project here. More description of project here. Even More description of project here.
+                        </p>
+                    </a>
+                    <a href="#" class="col-sm-6 my-3 port" data-toggle="popover" data-placement="left" title="Navigate to GitHub" data-content="Coming soon">
+                        <img src="img/thumb/nodejs.jpg" class="img-fluid rounded" alt="">
+                        <h1 class="my-3">
+                            Project 3
+                        </h1>
+                        <p class="text-muted desc">
+                            Description of project here. More description of project here. Even More description of project here.
+                        </p>
+                    </a>
+                    <a href="#" class="col-sm-6 my-3 port" data-toggle="popover" data-placement="right" title="Navigate to GitHub" data-content="Coming soon">
+                        <img src="img/thumb/html_css_js.png" class="img-fluid rounded" alt="">
+                        <h1 class="my-3">
+                            Project 4
+                        </h1>
+                        <p class="text-muted desc">
+                            Description of project here. More description of project here. Even More description of project here.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /portfolio -->
+        <!-- contact -->
+        <section id="contact" class="p-5">
+            <div class="container">
+                <div class="row text-center align-items-center justify-content-between">
+                    <div class="col-sm-6 my-2">
+                        <h1 class="text-white text-uppercase">
+                            Contact Me
+                        </h1>
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <a href="#contact" id="contactButton" class="btn btn-lg btn-outline-warning text-uppercase" data-toggle="popover" data-placement="top" title="Navigate to contact form" data-content="Coming soon">
+                            Send me a message
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /contact -->
+        <!-- footer -->
+        <section id="footer" class="p-3 bg-dark">
+            <div class="container">
+				<ul class="nav nav-inline justify-content-end">
+					<li class="nav-item text-warning">
 						<small class="nav-link">Rysdev</small>
 					</li>
 					<li class="nav-item">
@@ -175,18 +144,28 @@
 					<li class="nav-item">
 						<small><a class="nav-link" href="https://github.com/rysdev">GitHub</a></small>
 					</li>
-					<li class="nav-item">
-						<small class="nav-link">&copy;Rysdev&reg;</small>
+					<li class="nav-item text-warning">
+						<small class="nav-link">&copy;Rysdev</small>
 					</li>
 				</ul>
-			</div>
-			<!-- /footer -->
-		
-		</div>
+            </div>
+        </section>
+        <!-- /footer -->
+
 		<!-- /page content -->
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#contactButton').popover({
+                trigger : 'hover'
+            });
+            $('.port').popover({
+                trigger : 'hover'
+            });
+        });
+    </script>
   </body>
 </html>

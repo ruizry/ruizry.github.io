@@ -1,11 +1,36 @@
-h1 {
-	color:#fff;
-	font-family:roboto;
-	font-weight:900;
-	text-transform:uppercase;
+body {
+    font-family: Simonetta, cursive;
+    /* Put main section under nav */
+    margin-top: 70px;
 }
 
-.aboutText {
-	font-family:roboto;
-	font-weight:500;
+nav {
+    font-family: Roboto, san-serif;
+}
+
+.max-viewport {
+    min-height: 90vh; /* Set size of main banner */
+}
+
+.transparent {
+    background-color: rgba(175, 76, 6, 0.7);
+}
+
+#main,
+#contact,
+#social {
+    /* Background image with gradient coloring over it */
+    background: linear-gradient( rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url(../img/coding.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc {
+    font-family: Roboto, san-serif;
+}
+
+.port:hover {
+    background-color: rgba(175, 116, 6, 0.288);
 }
