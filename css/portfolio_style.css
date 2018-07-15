@@ -13,14 +13,16 @@ nav {
 }
 
 .transparent {
-    background-color: rgba(175, 76, 6, 0.7);
+    /*background-color: rgba(175, 76, 6, 0.7);*/
+    background-color: rgba(245, 130, 52, 0.7);
 }
 
 #main,
 #contact,
 #social {
     /* Background image with gradient coloring over it */
-    background: linear-gradient( rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url(../img/coding.jpg);
+    /*background: linear-gradient( rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url(../img/coding.jpg);*/
+    background: linear-gradient( rgba(189, 195, 199, 0.6), rgba(44, 62, 80, 0.6)), url(../img/coding.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,6 +33,11 @@ nav {
     font-family: Roboto, san-serif;
 }
 
+.port {
+    border-radius: 25px;
+}
+
 .port:hover {
-    background-color: rgba(175, 116, 6, 0.288);
+    /*background-color: rgba(175, 116, 6, 0.288); */
+    background-color: rgba(55, 59, 68, 0.288);
 }
